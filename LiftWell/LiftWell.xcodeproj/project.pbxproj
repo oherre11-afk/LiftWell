@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07000A442A146EC9007B5D70 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07000A432A146EC9007B5D70 /* ProfileView.swift */; };
+		07000A482A14708A007B5D70 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07000A472A14708A007B5D70 /* FriendModel.swift */; };
+		071E15EF2A09DABC0057E1A3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E15EE2A09DABC0057E1A3 /* HomeView.swift */; };
+		783170D22A09B27B00D57270 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783170D12A09B27B00D57270 /* LoginView.swift */; };
+		78A41BBE2A09B10B00315A74 /* LiftWellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A41BBD2A09B10B00315A74 /* LiftWellApp.swift */; };
+		78A41BC02A09B10B00315A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A41BBF2A09B10B00315A74 /* ContentView.swift */; };
+		78A41BC22A09B10D00315A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A41BC12A09B10D00315A74 /* Assets.xcassets */; };
+		78A41BC52A09B10D00315A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A41BC42A09B10D00315A74 /* Preview Assets.xcassets */; };
+		78D8DC282A09F8E6001E685A /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DC272A09F8E6001E685A /* CreateAccountView.swift */; };
+		78D8DC2A2A09FC0D001E685A /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DC292A09FC0D001E685A /* AuthView.swift */; };
+		78D8DC2C2A0AAFBC001E685A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78D8DC2B2A0AAFBC001E685A /* GoogleService-Info.plist */; };
+		78D8DC2E2A0AC585001E685A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D8DC2D2A0AC585001E685A /* UserModel.swift */; };
+		78E926E22A12931600C40947 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E926E12A12931600C40947 /* FriendView.swift */; };
+		78E926E42A12934D00C40947 /* QuickWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E926E32A12934D00C40947 /* QuickWorkoutView.swift */; };
+		78E926E62A12E64500C40947 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E926E52A12E64500C40947 /* WorkoutModel.swift */; };
+		C82B9FB02A09CA5E00BB2BBC /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B9FAF2A09CA5E00BB2BBC /* ExerciseView.swift */; };
+		C82B9FB22A09CA6B00BB2BBC /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B9FB12A09CA6B00BB2BBC /* CalenderView.swift */; };
+		C82B9FB72A09CA9900BB2BBC /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B9FB62A09CA9900BB2BBC /* ExerciseModel.swift */; };
+		C82B9FB92A09CAAC00BB2BBC /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B9FB82A09CAAC00BB2BBC /* CalendarModel.swift */; };
+		DCBDCB9600CC3C3875BAA214 /* Pods_LiftWell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4CD681AC8C7EDC1791E508A /* Pods_LiftWell.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07000A432A146EC9007B5D70 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		07000A472A14708A007B5D70 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		071E15EE2A09DABC0057E1A3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		783170D12A09B27B00D57270 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		78A41BBA2A09B10B00315A74 /* LiftWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiftWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A41BBD2A09B10B00315A74 /* LiftWellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftWellApp.swift; sourceTree = "<group>"; };
+		78A41BBF2A09B10B00315A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78A41BC12A09B10D00315A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78A41BC42A09B10D00315A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78D8DC272A09F8E6001E685A /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		78D8DC292A09FC0D001E685A /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		78D8DC2B2A0AAFBC001E685A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		78D8DC2D2A0AC585001E685A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		78E926E12A12931600C40947 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
+		78E926E32A12934D00C40947 /* QuickWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickWorkoutView.swift; sourceTree = "<group>"; };
+		78E926E52A12E64500C40947 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		7C5D0C46DED5C6CBEA29F980 /* Pods-LiftWell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftWell.release.xcconfig"; path = "Target Support Files/Pods-LiftWell/Pods-LiftWell.release.xcconfig"; sourceTree = "<group>"; };
+		C82B9FAF2A09CA5E00BB2BBC /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		C82B9FB12A09CA6B00BB2BBC /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		C82B9FB62A09CA9900BB2BBC /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		C82B9FB82A09CAAC00BB2BBC /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		DAE3A7836146921FBF4ED874 /* Pods-LiftWell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftWell.debug.xcconfig"; path = "Target Support Files/Pods-LiftWell/Pods-LiftWell.debug.xcconfig"; sourceTree = "<group>"; };
+		E4CD681AC8C7EDC1791E508A /* Pods_LiftWell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiftWell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78A41BB72A09B10B00315A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBDCB9600CC3C3875BAA214 /* Pods_LiftWell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F243842A5638C1E6F58539F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4CD681AC8C7EDC1791E508A /* Pods_LiftWell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		783170D02A09B25B00D57270 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				783170D12A09B27B00D57270 /* LoginView.swift */,
+				78E926E32A12934D00C40947 /* QuickWorkoutView.swift */,
+				78D8DC272A09F8E6001E685A /* CreateAccountView.swift */,
+				78D8DC292A09FC0D001E685A /* AuthView.swift */,
+				78A41BBF2A09B10B00315A74 /* ContentView.swift */,
+				C82B9FAF2A09CA5E00BB2BBC /* ExerciseView.swift */,
+				C82B9FB12A09CA6B00BB2BBC /* CalenderView.swift */,
+				071E15EE2A09DABC0057E1A3 /* HomeView.swift */,
+				78E926E12A12931600C40947 /* FriendView.swift */,
+				07000A432A146EC9007B5D70 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78A41BB12A09B10A00315A74 = {
+			isa = PBXGroup;
+			children = (
+				78A41BBC2A09B10B00315A74 /* LiftWell */,
+				78A41BBB2A09B10B00315A74 /* Products */,
+				78E96CECD67178CFF9D77BEC /* Pods */,
+				2F243842A5638C1E6F58539F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78A41BBB2A09B10B00315A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A41BBA2A09B10B00315A74 /* LiftWell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78A41BBC2A09B10B00315A74 /* LiftWell */ = {
+			isa = PBXGroup;
+			children = (
+				78D8DC2B2A0AAFBC001E685A /* GoogleService-Info.plist */,
+				C82B9FB32A09CA7A00BB2BBC /* Models */,
+				783170D02A09B25B00D57270 /* Views */,
+				78A41BBD2A09B10B00315A74 /* LiftWellApp.swift */,
+				78A41BC12A09B10D00315A74 /* Assets.xcassets */,
+				78A41BC32A09B10D00315A74 /* Preview Content */,
+			);
+			path = LiftWell;
+			sourceTree = "<group>";
+		};
+		78A41BC32A09B10D00315A74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78A41BC42A09B10D00315A74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78E96CECD67178CFF9D77BEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAE3A7836146921FBF4ED874 /* Pods-LiftWell.debug.xcconfig */,
+				7C5D0C46DED5C6CBEA29F980 /* Pods-LiftWell.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C82B9FB32A09CA7A00BB2BBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C82B9FB62A09CA9900BB2BBC /* ExerciseModel.swift */,
+				C82B9FB82A09CAAC00BB2BBC /* CalendarModel.swift */,
+				78D8DC2D2A0AC585001E685A /* UserModel.swift */,
+				78E926E52A12E64500C40947 /* WorkoutModel.swift */,
+				07000A472A14708A007B5D70 /* FriendModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78A41BB92A09B10B00315A74 /* LiftWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A41BC82A09B10D00315A74 /* Build configuration list for PBXNativeTarget "LiftWell" */;
+			buildPhases = (
+				F11CEEC6A72B72F5BDD79C05 /* [CP] Check Pods Manifest.lock */,
+				78A41BB62A09B10B00315A74 /* Sources */,
+				78A41BB72A09B10B00315A74 /* Frameworks */,
+				78A41BB82A09B10B00315A74 /* Resources */,
+				45FA0F78CD27A995658FF36A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiftWell;
+			productName = LiftWell;
+			productReference = 78A41BBA2A09B10B00315A74 /* LiftWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78A41BB22A09B10A00315A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					78A41BB92A09B10B00315A74 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 78A41BB52A09B10A00315A74 /* Build configuration list for PBXProject "LiftWell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78A41BB12A09B10A00315A74;
+			productRefGroup = 78A41BBB2A09B10B00315A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78A41BB92A09B10B00315A74 /* LiftWell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A41BB82A09B10B00315A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A41BC52A09B10D00315A74 /* Preview Assets.xcassets in Resources */,
+				78A41BC22A09B10D00315A74 /* Assets.xcassets in Resources */,
+				78D8DC2C2A0AAFBC001E685A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45FA0F78CD27A995658FF36A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiftWell/Pods-LiftWell-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiftWell/Pods-LiftWell-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiftWell/Pods-LiftWell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F11CEEC6A72B72F5BDD79C05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiftWell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A41BB62A09B10B00315A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D8DC282A09F8E6001E685A /* CreateAccountView.swift in Sources */,
+				78E926E62A12E64500C40947 /* WorkoutModel.swift in Sources */,
+				C82B9FB22A09CA6B00BB2BBC /* CalenderView.swift in Sources */,
+				78D8DC2A2A09FC0D001E685A /* AuthView.swift in Sources */,
+				C82B9FB92A09CAAC00BB2BBC /* CalendarModel.swift in Sources */,
+				07000A482A14708A007B5D70 /* FriendModel.swift in Sources */,
+				78E926E42A12934D00C40947 /* QuickWorkoutView.swift in Sources */,
+				071E15EF2A09DABC0057E1A3 /* HomeView.swift in Sources */,
+				07000A442A146EC9007B5D70 /* ProfileView.swift in Sources */,
+				783170D22A09B27B00D57270 /* LoginView.swift in Sources */,
+				78E926E22A12931600C40947 /* FriendView.swift in Sources */,
+				78A41BC02A09B10B00315A74 /* ContentView.swift in Sources */,
+				78A41BBE2A09B10B00315A74 /* LiftWellApp.swift in Sources */,
+				C82B9FB02A09CA5E00BB2BBC /* ExerciseView.swift in Sources */,
+				78D8DC2E2A0AC585001E685A /* UserModel.swift in Sources */,
+				C82B9FB72A09CA9900BB2BBC /* ExerciseModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		78A41BC62A09B10D00315A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78A41BC72A09B10D00315A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78A41BC92A09B10D00315A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE3A7836146921FBF4ED874 /* Pods-LiftWell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiftWell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryland.cmsc436.spring2023.LiftWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78A41BCA2A09B10D00315A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5D0C46DED5C6CBEA29F980 /* Pods-LiftWell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiftWell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryland.cmsc436.spring2023.LiftWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78A41BB52A09B10A00315A74 /* Build configuration list for PBXProject "LiftWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A41BC62A09B10D00315A74 /* Debug */,
+				78A41BC72A09B10D00315A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A41BC82A09B10D00315A74 /* Build configuration list for PBXNativeTarget "LiftWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A41BC92A09B10D00315A74 /* Debug */,
+				78A41BCA2A09B10D00315A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78A41BB22A09B10A00315A74 /* Project object */;
+}
